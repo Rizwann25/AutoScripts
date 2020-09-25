@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.atmecs.demoblaze.pages.SignUpPage" />
+			<class name="com.atmecs.demoblaze.testscripts.LoginPage" />
+			<class name="com.atmecs.demoblaze.testscripts.AddToCart" />
+			<class name="com.atmecs.demoblaze.testscripts.ContactUs" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
